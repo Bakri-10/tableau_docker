@@ -43,6 +43,6 @@ unzip SimbaSparkODBC-2.6.26.1045-LinuxRPM-64bit.zip
 cd ..
 ######## builds docker image
 
-./build-image --accepteula -i tableau-server-2022-3-1.x86_64.rpm 
+./build-image --accepteula -i tableau-server-2022-3-1.x86_64.rpm -e env.txt
 
 docker images ls
